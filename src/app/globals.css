@@ -1,0 +1,30 @@
+@import './FlowingMenu.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 16% 93%;  /* #E7E9EC */
+    --foreground: 0 0% 10%;     /* #1A1A1A */
+    --card: 0 0% 100%;          /* #FFFFFF */
+    --card-foreground: 0 0% 10%;
+    --primary: 221 66% 32%;     /* #1B3C8A */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 89% 56%;    /* #F27A2C */
+    --secondary-foreground: 0 0% 10%;
+    --muted: 216 8% 31%;        /* #4B4F55 */
+    --accent: 219 63% 53%;      /* #3F6DCE */
+    --border: 216 8% 31%;
+    --ring: 221 66% 32%;
+  }
+  .dark {
+    --background: 0 0% 10%;     /* #1A1A1A */
+    --foreground: 0 0% 100%;
+    --card: 216 8% 18%;
+    --primary: 221 66% 40%;
+  }
+}
+
+
